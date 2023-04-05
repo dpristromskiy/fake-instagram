@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    display: flex;
+  }
+  
+  .box1 {
+    flex-basis: 250px;
+    min-height: 100vh;
+    background-color: blue;
+  }
+  
+  .box2 {
+    flex-grow: 1;
+    background-color: rgb(32, 96, 147);
+  }
