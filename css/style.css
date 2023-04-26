@@ -16,34 +16,36 @@
   flex-basis: 237px;
   min-height: 100vh;
   background-color: rgb(0, 0, 0);
-
+position: fixed;
 }
 
 .box2 {
   flex-grow: 1;
   background-color: rgb(0, 0, 0);
   border-right: 1px solid #262626;
-  padding-left: 50px;
-}
-.shapka{
-  width: 470px;
-  height: 60px;
-  background-color: blue;
+  
 }
 .boxlenta{
   
-  width:max-content;
+  width: 470px;
+  margin-right: 150px;
+  margin-left: 300px;
+  
+}
+.shapka{
+  width: 470px;
+  height: 56px;
   background-color: blueviolet;
 }
-
 .like{
-  width: 438px;
-  height: 40px;
+  width: 470px;
+  height: 46px;
+  background-color: chartreuse;
 }
 .coment{
   width: 470px;
   height: 18px;
-  background-color: chartreuse;
+  background-color: rgb(84, 45, 88);
 }
 
 .box3 {
@@ -114,4 +116,11 @@ span {
 .exe {
   margin-top: -6px;
 
+}
+.akk{
+  width: 319px;
+  height: 494px;
+  background-color: dodgerblue;
+  justify-content: flex-end;
+  margin-left: 888px;
 }
