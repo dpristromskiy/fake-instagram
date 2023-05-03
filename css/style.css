@@ -23,19 +23,24 @@ position: fixed;
   flex-grow: 1;
   background-color: rgb(0, 0, 0);
   border-right: 1px solid #262626;
-  
+  display: flex;
+  /* justify-content: flex-end; */
 }
+  
 .boxlenta{
-  
+ 
   width: 470px;
-  margin-right: 150px;
   margin-left: 300px;
-  
+  border-right: 1px solid #262626;
 }
+  
+
 .shapka{
   width: 470px;
   height: 56px;
-  background-color: blueviolet;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  
 }
 .like{
   width: 470px;
@@ -45,7 +50,8 @@ position: fixed;
 .coment{
   width: 470px;
   height: 18px;
-  background-color: rgb(84, 45, 88);
+  background-color: rgb(0, 0, 0);
+
 }
 
 .box3 {
@@ -120,7 +126,42 @@ span {
 .akk{
   width: 319px;
   height: 494px;
-  background-color: dodgerblue;
-  justify-content: flex-end;
-  margin-left: 888px;
+  background-color: rgb(88, 93, 99);
+  margin-left: 30px;
+  margin-top: 30px;
+  
 }
+
+/* .akk1{
+  
+} */
+.messiava {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  margin-top: 10px;
+  margin-left: 3px;
+  
+}
+.nikleo{
+  margin-top: 15px;
+  margin-left: 0px;
+  font-family: var(--font-family-system);
+  color: white;
+}
+
+.Follow{
+  margin-top: 15px;
+  margin-left: 45px;
+  color: rgb(87, 87, 209);
+  font-family: var(--font-family-system);
+  
+}
+.whylike{
+  color: white;
+  font-size: var(--system-14-font-size);
+  font-family: var(--font-family-system);
+  margin-top: 5px;
+}
+
+
