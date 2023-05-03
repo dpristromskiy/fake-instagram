@@ -31,7 +31,7 @@ position: fixed;
  
   width: 470px;
   margin-left: 300px;
-  border-right: 1px solid #262626;
+  
 }
   
 
@@ -161,7 +161,15 @@ span {
   color: white;
   font-size: var(--system-14-font-size);
   font-family: var(--font-family-system);
-  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 0px;
 }
 
-
+.proche{
+  margin-top: 15px;
+  margin-left: 239px;
+}
+.iconlike{
+ 
+  padding-left: 0px;
+}
